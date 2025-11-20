@@ -11,7 +11,7 @@ const Setting = (props: AllWidgetSettingProps<any>) => {
     }
 
     return <div className="widget-setting-demo">
-        This is your starter widget setting area!
+        Select a map to display coordinates:
         <MapWidgetSelector useMapWidgetIds={props.useMapWidgetIds} onSelect={onMapWidgetSelected} />
     </div>
 }
